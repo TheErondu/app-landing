@@ -1,0 +1,36 @@
+{
+  "hosting": {
+    "public": "/",
+    "site":"divine-app-landing",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/faq",
+        "destination": "/faq.html"
+      },
+      {
+        "source": "/download",
+        "destination": "/download.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-store, must-revalidate"
+          }
+        ]
+      }
+    ]
+  }
+}
