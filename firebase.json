@@ -1,7 +1,7 @@
 {
   "hosting": {
+    "target": "app_landing",
     "public": "/",
-    "site":"divine-app-landing",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -19,6 +19,14 @@
       {
         "source": "/download",
         "destination": "/download.html"
+      },
+      {
+        "source": "/privacy",
+        "destination": "/privacy.html"
+      },
+      {
+        "source": "/terms",
+        "destination": "/terms.html"
       }
     ],
     "headers": [

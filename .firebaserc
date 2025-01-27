@@ -1,5 +1,15 @@
 {
   "projects": {
-    "default": "divine-connection-app"
-  }
+    "default": "divine-connection-5b04d"
+  },
+  "targets": {
+    "divine-connection-5b04d": {
+      "hosting": {
+        "app_landing": [
+          "divineconnection"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
